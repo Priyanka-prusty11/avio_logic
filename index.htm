@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background: url("aeru.jpg");
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        #logo {
+            font-size: 60px;
+            margin-right: 20px;
+        }
+
+        #title h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+        
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px 0;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .nav-item {
+            padding: 15px 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: black;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            text-transform: uppercase;
+            cursor: pointer;
+            color: rgb(58, 58, 142);
+        }
+
+        /* Login Button */
+        .login-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 22px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-left: 20px;
+        }
+
+        .login-btn:hover {
+            background-color: #656768;
+        }
+        #quote{
+            /* float:right; */
+            font-size: 70px;
+            padding:40px;
+            margin-left:1300px;
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <i id="logo" class="fa-solid fa-plane"></i>
+        <div id="title">
+            <h1>Avio Logic Solutions Pvt Ltd</h1>
+        </div>
+    </div> 
+    
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Business Units</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Technology</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+            <button class="login-btn">Login</button>
+        </nav>
+    </header>
+
+    <div id="quote">
+        <p>Unraveling the potential of the Digital World</p>
+    </div>
+</body>
+</html>
